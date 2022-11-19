@@ -1,5 +1,5 @@
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=3398904&appid=b85709abfebaacbe0c192a934ab5d901&units=imperial"
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3398904&appid=b85709abfebaacbe0c192a934ab5d901&units=imperial"
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -19,6 +19,3 @@ fetch(apiURL)
     
 
  }); //end of "then" fat arrow function
-
-
-
